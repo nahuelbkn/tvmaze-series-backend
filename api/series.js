@@ -7,9 +7,7 @@ const router = Router();
 
 
 router.get("/search/shows/:search", (req ,res)=>{
-    console.log("10 -> ", req.params.search);
     const SEARCH = req.params.search;
-    console.log(SEARCH)
 
     fetch(`http://api.tvmaze.com/singlesearch/shows?q=${SEARCH}`)
     .then(res => res.json())
