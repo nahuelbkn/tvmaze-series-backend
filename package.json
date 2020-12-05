@@ -1,0 +1,28 @@
+{
+  "name": "guayerd-code-challenge-backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nahuelbkn/guayerd-code-challenge-backend.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nahuelbkn/guayerd-code-challenge-backend/issues"
+  },
+  "homepage": "https://github.com/nahuelbkn/guayerd-code-challenge-backend#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "mongoose": "^5.11.4",
+    "node-fetch": "^2.6.1"
+  },
+  "devDependencies": {
+    "morgan": "^1.10.0"
+  }
+}
