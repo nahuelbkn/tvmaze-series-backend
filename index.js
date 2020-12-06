@@ -12,6 +12,7 @@ const app = express();
 /* MIDDLEWARES */
 app.use(cors());
 app.use(express.json());
+app.use(express.urlencoded({ extended: false }));
 
 /* SETTINGS */
 app.set("port", process.env.PORT || 3001);
