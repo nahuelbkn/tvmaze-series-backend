@@ -79,7 +79,7 @@ function saveRequest(search, date, ip, responseFrom) {
     const query = new queryOBJ(search, date, ip, responseFrom);
     const doc = new Query(query);
     doc.save()
-    .then(query=>{console.log("Request saved in MongoDB")})
+    .then(query=>{console.log(`Request saved in MongoDB (Response from ${responseFrom})`)})
     .catch(error=>{console.log("The request could not be saved to MongoDB")});
 }
 
